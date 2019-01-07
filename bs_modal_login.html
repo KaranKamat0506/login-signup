@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="./assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- <script src="modal.js"></script> -->
+</head>
+<body>
+     <!-- Button trigger modal -->
+     <div class="container">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Launch demo modal
+              </button>
+              </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content" style="background-color: #1f2251;">
+                    <div class="modal-header">
+                      <h5 class="modal-title" style="font-size: 30px; color: whitesmoke;" id="exampleModalLabel">SIGN IN</h5>
+                      <p></p><br><br>
+                      
+                     <i class="material-icons" style="font-size: 60px; margin-top: 10%; margin-right: 35%; text-decoration: none; "  >
+                      <a style="text-decoration: none;" href="https://accounts.google.com/ServiceLogin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                        account_circle
+                      </a>
+                        </i>
+                     
+                      </p>
+                      <!-- <p style="font-size: 5px; margin-top: 40%; margin-right: 40% " > or sign in wih credentials </p> -->
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                            <form autocomplete="off">
+                             
+                              
+                            <!-- email and password -->
+                                    <div class="row">
+                                      <div class="col-md-12 pr-md-1">
+                                        <div class="form-group">
+                                          <label style="color: whitesmoke;" for="exampleInputEmail1">Email address</label>
+                                          <input id="email" type="email" class="form-control" placeholder="Email Id" name="hidden" >
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-12 pr-md-1">
+                                       <div class="form-group"> 
+                                            <label style="color: whitesmoke;" for="exampleInputEmail1">Password</label>
+                                            <input  id="pwd" type="password" class="form-control" placeholder="Password" name="hidden">
+                                       </div>
+                                     </div>
+                                    </div>
+                                  </form>
+                                
+                                </div>
+                    <div class="modal-footer">
+                        <!-- <p style="padding: 2px;">not registered yet?</p>
+         -->
+                      <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                      <button type="button" class="btn btn-primary" style="margin-left:200px; font-size: 15px;">Login</button><br>
+                      <p style="padding: 2px;"><a href=""> not registered yet?</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="./assets/js/black-dashboard.min.js?v=1.0.0"></script>
+
+</body>
+</html>
